@@ -40,12 +40,19 @@
 <button id = "b1" type="button" onclick="goToGuixong">Investigate Guinov</button>
 <button id = "b2" type="button" onclick="myFunction()">Investigate Karpinov</button>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 <script>
+$(document).ready(function(){
+    $("b1").click(function(){
+        $("one").hide(1000);
+</script>
+
+<!--
 function goToGuixong() {
    document.getElementById("Leningrad").innerHTML = "Deleted";
 }
-</script>
-
+//--!>
 
 
 </body>
